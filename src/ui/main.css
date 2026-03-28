@@ -162,3 +162,51 @@ div{
  border-radius: 1rem;
  user-select:none;
 }
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #727ac2 #1e255e; /* thumb | track */
+}
+
+/* Webkit (Chrome, Edge, Safari) Support */
+
+/* 1. The scrollbar container */
+::-webkit-scrollbar {
+  width: 0.6rem;  /* Vertical width */
+  height: 0.6rem; /* Horizontal height */
+}
+
+/* 2. The background track */
+::-webkit-scrollbar-track {
+  background: #1e255e;
+  border-radius: 1rem;
+  margin: 0.3rem; /* Adds a little space at the ends */
+}
+
+/* 3. The moving thumb */
+::-webkit-scrollbar-thumb {
+  background: #727ac2;
+  border-radius: 3rem;
+  border: 0.15rem solid #1e255e; /* Creates a "floating" effect inside the track */
+  transition: background 0.3s ease;
+}
+
+/* 4. Hover effect on the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #8a8fbf;
+}
+
+/* 5. Corner where horizontal and vertical meet */
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Optional: Slimmer version for specific inner containers like the playlist */
+.playlist-container::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.playlist-container::-webkit-scrollbar-thumb {
+  background: #3b45a3;
+}
