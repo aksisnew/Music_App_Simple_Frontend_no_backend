@@ -3,3 +3,12 @@ body{
   user-select: none;
   margin: 0;
 }
+button{
+  border:none;
+  border-radius: 1rem;
+  box-shadow: inset 0rem 0rem 0.9rem grey;
+  padding: 0.8rem;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
