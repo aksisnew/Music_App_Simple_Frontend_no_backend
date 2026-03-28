@@ -37,5 +37,226 @@
   align-items: center;
   box-shadow: inset 0rem 0rem 1rem #7d7f8a;
 }
+.red {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #ff0000;
+  border: 0.1rem solid #ff0000;
+  color: #ff0000;
+}
+
+.yellow {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #ffd700;
+  border: 0.1rem solid #ffd700;
+  color: #8b8000;
+}
+.alert {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #d32f2f;
+  border: 0.1rem solid #d32f2f;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.warning {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #fbc02d;
+  border: 0.1rem solid #fbc02d;
+  color: #856404;
+  font-weight: bold;
+}
+
+.success {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #388e3c;
+  border: 0.1rem solid #388e3c;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+.info {
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #3b45a3;
+  border: 0.1rem solid #3b45a3;
+  color: #1e255e;
+  font-weight: bold;
+}
+/* Base Button Styling */
+button {
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  transition: transform 0.2s, opacity 0.2s;
+  border: 0.1rem solid transparent;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Primary Action Button - Using #3b45a3 */
+.btn-primary {
+  height: max-content;
+  width: max-content;
+  padding: 1rem 2rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #3b45a3;
+  border: 0.1rem solid #3b45a3;
+  color: #1e255e;
+  font-weight: bold;
+}
+
+/* Play/Main Control Button - Using #727ac2 */
+.btn-play {
+  height: 4rem;
+  width: 4rem;
+  padding: 1rem;
+  margin: 1.2rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1.5rem #727ac2;
+  border: 0.15rem solid #727ac2;
+  color: #1e255e;
+  font-size: 1.5rem;
+}
+
+/* Secondary/Muted Button - Using #7d7f8a */
+.btn-secondary {
+  height: max-content;
+  width: max-content;
+  padding: 0.8rem 1.5rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 0.8rem #7d7f8a;
+  border: 0.1rem solid #7d7f8a;
+  color: #4c4d57;
+  font-size: 0.9rem;
+}
+
+/* Danger/Cancel Button - Using Red Tone */
+.btn-danger {
+  height: max-content;
+  width: max-content;
+  padding: 1rem 2rem;
+  margin: 1.2rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 1rem #d32f2f;
+  border: 0.1rem solid #d32f2f;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* Small Tab/Navigation Button - Using #44475e */
+.btn-tab {
+  height: max-content;
+  width: max-content;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0rem 0rem 0.5rem #44475e;
+  border: 0.1rem solid #44475e;
+  color: #44475e;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+*:focus {
+  outline: none;
+}
+
+
+*:focus-visible {
+  outline: none;
+
+  box-shadow: 0 0 0 0.15rem #ffffff, 0 0 0 0.35rem #727ac2;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.red:focus-visible, 
+.yellow:focus-visible, 
+.alert:focus-visible, 
+.warning:focus-visible, 
+.btn-primary:focus-visible, 
+.btn-secondary:focus-visible,
+.btn-danger:focus-visible,
+.btn-tab:focus-visible {
+  border-radius: 3rem;
+  box-shadow: inset 0rem 0rem 1rem currentColor, 0 0 0 0.2rem #ffffff, 0 0 0 0.4rem #8a8fbf;
+}
+
+
+.btn-play:focus-visible {
+  border-radius: 50%;
+  box-shadow: inset 0rem 0rem 1.5rem #727ac2, 0 0 0 0.2rem #ffffff, 0 0 0 0.4rem #3b45a3;
+}
 
   
