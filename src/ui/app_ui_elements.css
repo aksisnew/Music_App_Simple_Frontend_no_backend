@@ -1,0 +1,13 @@
+.panelmain{
+  height: max-content;
+  width: max-content;
+  padding: 1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
+  border-radius: 1.2rem;
+  background-color: #FFFF;
+}
+
+  
